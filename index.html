@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <title>Kanban Board</title>
+</head>
+
+<body>
+    <h1>Hello World Kanban Board</h1>
+    <div>
+        <div class="container">
+            <h2>BACKLOG</h2>
+            <ul class="sortable connectedSortable">
+                <li class="card">Study JS</li>
+                <li class="card">Push to Git</li>
+                <li class="card">Meeting at Fundpark</li>
+            </ul>
+            <div class="link-div">
+                <input type="text" id="new_text" value="" />
+                <input type="button" name="btnAddNew" value="Add Task" class="add-button" />
+            </div>
+        </div>
+        <div class="container">
+            <h2>TODO</h2>
+            <ul class="sortable connectedSortable">
+                <li class="card">Training at GT</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>In Progress</h2>
+            <ul class="sortable connectedSortable">
+                <li class="card">Create Kanban Board</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>UAT</h2>
+            <ul class="sortable connectedSortable">
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Done</h2>
+            <ul class="sortable connectedSortable">
+            </ul>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="clearfix"></div>
+    <p>
+        <span class="message">Created &#10000; by
+            <span class="name">Hagil Baik</span>
+    </p>
+</footer>
+
+</html>
