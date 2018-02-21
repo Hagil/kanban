@@ -1,68 +1,80 @@
- body {
-     font-family: "Dosis", sans-serif;
- }
+body {
+    font-family: "Dosis", sans-serif;
+}
 
- h1 {
-     font-family: "Berkshire Swash", cursive;
-     position: relative;
-     left: 30%;
- }
+h1 {
+    font-family: "Berkshire Swash", cursive;
+    position: relative;
+    left: 30%;
+}
 
- h2 {
-     margin: 5px;
- }
+h2 {
+    margin: 5px;
+}
 
- input[type=text] {
-     margin: 10px
- }
+input[type=text] {
+    margin: 10px
+}
 
- input[type=button] {
-     margin: 10px
- }
+input[type=button] {
+    margin: 10px
+}
 
- .container {
-     width: 20%;
-     float: left;
-     clear: right;
-     margin: 10px;
-     border-radius: 5px;
-     background-color: #4286f4;
- }
+.container {
+    width: 20%;
+    float: left;
+    clear: right;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4286f4;
+}
 
- .sortable {
-     list-style-type: none;
-     margin: 0;
-     padding: 2px;
-     min-height: 30px;
-     border-radius: 5px;
- }
+.sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    min-height: 30px;
+    border-radius: 5px;
+}
 
- .sortable li {
-     margin: 3px 3px 3px 3px;
-     padding: 0.4em;
-     padding-left: 1.5em;
-     font-size: 1.4em;
-     height: 18px;
- }
+.sortable li {
+    margin: 3px 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    height: 18px;
+}
 
- .sortable li span {
-     position: absolute;
-     margin-left: -1.3em;
- }
+.sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
 
- .card {
-     background-color: white;
-     border-radius: 3px;
- }
+.card {
+    background-color: white;
+    border-radius: 3px;
+}
 
- footer {
-     font-size: 1.2em;
-     padding: 2em;
-     position: relative;
-     bottom: 0;
-     left: 50%;
-     margin-left: -200px;
-     /*negative half the width */
-     width: 400px;
-     height: 100px;
- }
+footer {
+    font-size: 1.2em;
+    padding: 2em;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    margin-left: -200px;
+    /*negative half the width */
+    width: 400px;
+    height: 100px;
+}
+
+@media screen and (min-width: 700px) {
+    #outer {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #outer {
+        flex-direction: column;
+    }
+}
